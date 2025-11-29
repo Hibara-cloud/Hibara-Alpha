@@ -10,7 +10,8 @@ import time
 import logging
 import math
 import getpass # Used for secure password input
-from ExpertOptionAPI.client import ExpertOption
+from ExpertOptionAPI import ExpertOption
+
 
 
 
