@@ -10,7 +10,7 @@ import time
 import logging
 import math
 import getpass # Used for secure password input
-from ExpertOptionAPI import Client
+from ExpertOptionAPI.expert import ExpertOption
 
 # ---------- 🚨 Trading Settings (No Credentials Here) 🚨 ----------
 ASSET_ID = "EURUSD"                     # Trading Asset
@@ -176,7 +176,7 @@ if __name__ == "__main__":
     email = input("Please enter your Expert Option email: ")
     password = getpass.getpass("Please enter your Expert Option password: ")
 
-    client = Client(email, password)
+    client = ExpertOption(email, password)
 
     if not client.login():
         logger.error("Login failed. Check credentials or network status.")
