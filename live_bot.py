@@ -10,7 +10,7 @@ import time
 import logging
 import math
 import getpass # Used for secure password input
-from ExpertOptionAPI.client import Client
+from ExpertOptionAPI import Client
 
 # ---------- 🚨 Trading Settings (No Credentials Here) 🚨 ----------
 ASSET_ID = "EURUSD"                     # Trading Asset
