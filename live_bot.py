@@ -12,11 +12,6 @@ import math
 import getpass # Used for secure password input
 from ExpertOptionAPI import ExpertOption
 
-
-
-
-
-
 # ---------- 🚨 Trading Settings (No Credentials Here) 🚨 ----------
 ASSET_ID = "EURUSD"                     # Trading Asset
 INTERVAL = 60                           # Candle duration in seconds (60s = 1 Minute)
