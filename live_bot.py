@@ -176,7 +176,7 @@ if __name__ == "__main__":
     email = input("Please enter your Expert Option email: ")
     password = getpass.getpass("Please enter your Expert Option password: ")
 
-    client = ExpertOption(email, password)
+    client = Client(email, password)
 
     if not client.login():
         logger.error("Login failed. Check credentials or network status.")
