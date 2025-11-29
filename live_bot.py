@@ -10,7 +10,7 @@ import time
 import logging
 import math
 import getpass # Used for secure password input
-from ExpertOptionAPI import ExpertOption 
+from ExpertOptionAPI.ExpertOption import ExpertOption
 
 
 # ---------- 🚨 Trading Settings (No Credentials Here) 🚨 ----------
